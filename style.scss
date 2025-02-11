@@ -3,7 +3,7 @@ $white: #fff;
 $gray: #222222;
 $lghtgray: #cfcfcf;
 $accent: #ff6022;
-$mediumdark: #3a3a3a;
+$mediumdark: #333333;
 
 * {
 	margin: 0;
@@ -156,4 +156,11 @@ body {
 	bottom: -15%;
 	box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.15);
 	border-radius: 35%;
+}
+
+.wrapper.active .form.login header {
+	opacity: 1 !important;
+}
+.wrapper.active .signup header {
+	opacity: 0.6 !important;
 }
